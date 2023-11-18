@@ -1,0 +1,1 @@
+ssh -NT -p 52032 -L 0.0.0.0:9900:localhost:80 -o ServerAliveInterval=60  cmet@202.141.163.4
