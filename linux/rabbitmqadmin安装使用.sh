@@ -1,0 +1,1 @@
+wget http://localhost:15672/cli/rabbitmqadmin

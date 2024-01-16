@@ -1,0 +1,1 @@
+docker run -itd -p 15672:15672  -p  5672:5672  -e RABBITMQ_DEFAULT_USER=alpha -e RABBITMQ_DEFAULT_PASS=alpha@dq --name rabbitmq --hostname=rabbitmqhostone  rabbitmq:management
